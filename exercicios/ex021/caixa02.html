@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color:dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(48, 46, 46);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+        nav > a{
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            background-color: white;
+            color: yellow;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 25px 0px 0px 0px;
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: rgb(117, 108, 108);
+            text-align: right;
+            padding: 5px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+        
+        }
+        footer > a{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <h2>Esportes Tecnologia Dinheiro</h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, reiciendis. Autem veritatis necessitatibus sit esse molestias repudiandae commodi mollitia quam assumenda, aspernatur, harum voluptatibus nobis asperiores quasi enim eius animi.</p>
+                <aside>
+                    <p>Artigo Escrito por JOsé da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Lúcio Corrêa</p>
+    </footer>
+</body>
+</html>
